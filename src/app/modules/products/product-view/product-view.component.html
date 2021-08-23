@@ -1,0 +1,46 @@
+<div class="container">
+	<div class="product-text">
+
+		<div class="headline">
+			<h2>Product Detail</h2>
+		</div><br>
+
+		<!-- <div class="row-card"> -->
+			<div class="row">
+
+			<div class="card" *ngIf="product$ | async as product">
+
+				<div class="card-list">
+					<img class="card-img-top" src="{{product.imageUrl}}" alt="Card image cap">
+
+					<div class="card-body">
+
+						<p class="card-text">Price: ${{product.price}}</p>
+						<p class="card-text">In Stock: {{product.quantity}}</p>
+						<h5 class="card-title">{{product.name}}</h5>
+						<p class="card-text">{{product.description}}</p>
+					</div>
+					<div class="allbtn">
+						<div class="btn" role="group">
+					<app-cart-button-widget [product]="product" [text]="'Shopping Cart'">
+						</app-cart-button-widget>
+						</div>
+						<button class="btn2" [routerLink]="['/shopping/products']"
+						routerLinkActive="router-link-active"><i class="fas fa-arrow-left"></i>
+						Back To Shopping</button>
+
+						</div>		
+						<!-- <button class="btn" [routerLink]="['/shopping/products']"
+							routerLinkActive="router-link-active"><i class="fas fa-arrow-left"></i>
+							Back To Shopping</button> -->
+
+
+
+
+
+				</div>
+			</div>
+		<!-- </div> -->
+		</div>
+	</div>
+</div>

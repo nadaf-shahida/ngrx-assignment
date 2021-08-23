@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    background-image: url('../../../assets/backgroundimage.jpg');
+    height:85vh;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+     background-position: center center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     position:relative;
+    //  overflow: hidden;
+     width: 100%;
+    }
+
+    .text-box{
+        width: 90%;
+        color: white;
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .text-box h1{
+        font-size: 50px;
+    }
+    .text-box p{
+        margin: 10px 0 40px;
+        font-size: 15px;
+        color:white;
+    }
+    
+    .hero-btn{
+        display: inline-block;
+        flex-flow: row;
+        text-decoration: none;
+        color: white;
+        border: 2px solid white;
+        padding:12px 34px;
+        font-size: 18px;
+        background: transparent;
+        position: relative;
+        cursor: pointer;
+    }
+    .hero-btn:hover{
+        border: 1px solid orangered;
+        background: orangered;
+        transition: 1s;
+    }
+    @media(max-width: 500px){
+        .container{
+          // display: none;
+        //   width:60vh;
+          background-image: url('../../../assets/backgroundimage.jpg');
+          height:72vh;
+          // display: flex;
+          // align-items: center;
+          // justify-content: center;
+           background-position: center center;
+           background-size: cover;
+           background-repeat: no-repeat;
+           position:relative;
+          //  overflow: hidden;
+           width: 100%;
+      
+        }
+        .text-box p h1{
+            margin-right: 50px;
+        }
+    }
+    @media (max-width:320px){
+        .container{
+            background-image: url('../../../assets/backgroundimage.jpg');
+            height:127vh;
+            // display: flex;
+            // align-items: center;
+            // justify-content: center;
+             background-position: center center;
+             background-size: cover;
+             background-repeat: no-repeat;
+             position:relative;
+            //  overflow: hidden;
+             width:110%;
+  
+        }
+    }

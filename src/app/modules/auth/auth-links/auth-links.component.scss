@@ -1,0 +1,29 @@
+.auth-links a {
+  display: inline-block;
+  padding: 0px 10px;
+  cursor: pointer;
+  text-decoration: none;
+  color:white;
+  background-color:orangered;
+  margin-top: 17px;
+}
+.auth-logout-link {
+  cursor: pointer;
+}
+.auth-admin-link {
+  background-color:rgb(156, 156, 154);
+}
+.user-link {
+  background-color:black;
+}
+.auth-links{
+  overflow: hidden;
+}
+@media only screen and (max-width: 700px) {
+  .logout{
+    margin-left: 70px;
+  }
+  .auth-admin-link{
+    margin-left: 55px;
+    }
+}

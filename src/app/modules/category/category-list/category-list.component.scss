@@ -1,0 +1,175 @@
+.row{
+  display: flex;
+  flex-wrap: wrap;
+
+  align-content:stretch;
+  
+
+}
+h4{
+  text-align: center;
+}
+.text-right{
+  text-align: center;
+}
+.alldatalist{
+  text-align: center;
+}
+.card-title{
+font-size: 25px;
+}
+
+// .container{
+//   display: flex;
+//   // background-color:burlywood;
+//   color: white;
+// }
+.addbtn{
+  text-decoration: none;
+  color:orange;
+  border: 2px solid orangered;
+  padding:12px 14px;
+  font-size: 14px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  margin-top:30px;
+  margin-left:570px;
+  }
+.addbtn:hover{
+  border: 1px solid orangered;
+  background: orangered;
+  transition: 1s;
+}
+.btn{
+  border: none;
+  background-color: orangered;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 10px;
+  cursor: pointer;
+  border-radius: 10px;
+
+}
+
+.card{
+  margin:20px;
+  min-height: 200px;
+  background:#fff3f3;
+  border-radius: 10px;
+  // margin-bottom: 15%;
+  padding:50px 12px;
+  box-sizing: border-box;
+  color: orangered;
+  text-align: center;
+  height: 210px;
+  width: 250px; 
+  // margin-top: 20px;
+  margin-left: 50px;
+  // display: flex;
+  // flex-direction: row;
+  
+}
+.card-title{
+  text-align: center;
+}
+
+// .card-list{
+//    display: flex;
+//    flex-direction: row;
+//  }
+.card-img-top{
+  width: 240px;
+  height: 150px;
+}
+.card-title{
+  font-size: 22px;
+  margin: 0;
+}
+.card-text{
+  font-size: 16px;
+}
+ .card-body{
+  line-height: 1;
+
+ } 
+h1{
+  text-align: center;
+  color:orangered;
+  margin-left: -50px;
+}
+
+// // .addbtn{
+// //     background-color: orangered;
+// //     margin-left: 540px;
+// //     font-size: 18px;
+// //     height:50px;
+// //     border-radius: 2px solid white;
+// // }
+@media only screen and (max-width:320px) {
+  .addbtn{
+    text-decoration: none;
+    color:orange;
+    border: 2px solid orangered;
+    padding:12px 14px;
+    font-size: 14px;
+    background: transparent;
+    // position: relative;
+    cursor: pointer;
+    margin-top:30px;
+    margin-left:70px;
+    }
+  .addbtn:hover{
+    border: 1px solid orangered;
+    background: orangered;
+    transition: 1s;
+  }
+  
+}
+@media only screen and (max-width:500px) {
+  .addbtn{
+    text-decoration: none;
+    color:orange;
+    border: 2px solid orangered;
+    padding:12px 14px;
+    font-size: 14px;
+    background: transparent;
+    // position: relative;
+    cursor: pointer;
+    margin-top:30px;
+    margin-left:150px;
+    }
+  .addbtn:hover{
+    border: 1px solid orangered;
+    background: orangered;
+    transition: 1s;
+  }
+  h1{
+    text-align: center;
+    color:orangered;
+    // margin-left: 8px;
+  }
+  .card{
+    margin:20px;
+    min-height: 200px;
+    background:#fff3f3;
+    border-radius: 10px;
+    // margin-bottom: 15%;
+    padding:50px 12px;
+    box-sizing: border-box;
+    color: orangered;
+    text-align: center;
+    height: 210px;
+    width: 250px; 
+    // margin-top: 20px;
+    margin-left: 110px;
+    // display: flex;
+    // flex-direction: row;
+    
+  }
+  
+}

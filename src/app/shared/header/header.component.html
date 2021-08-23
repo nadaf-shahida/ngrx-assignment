@@ -1,0 +1,63 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body> -->
+	<div class="container">
+	<div class="topnav" id="myTopnav">
+		<div class="active"><a [routerLink]="['home']">SHOPIFY</a></div>
+
+		<div>
+			<a [routerLink]="['/shopping/products']">Go Shopping</a>
+		</div>
+
+
+		<div>
+			<!-- <a id="mode" class="active" (click)="toggleTheme()"
+				style="font-size: 16px;cursor: pointer;margin-left:50px;">{{themeText}}</a> -->
+				<a id="mode" [routerLink]=" " class="theme" (click)="toggleTheme()">
+					{{themeText}}
+				</a>
+		</div>
+
+		<div id="navbarColor01" *ngIf="vm$ | async as vm">
+
+
+			<div *ngIf="vm.isAdmin">
+				<a [routerLink]="['/shopping/product-list']">Products</a>
+				<a [routerLink]="['/category/list']">Categories</a>
+			</div>
+
+			<div>
+				<app-auth-links></app-auth-links>
+			</div>
+
+
+			<div *ngIf="vm.isLoggedin">
+				<app-cart-link-widget></app-cart-link-widget>
+			</div>
+
+			
+				<!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<i class="fa fa-bars"></i>
+				  </a> -->
+				
+	
+		<app-footer></app-footer>
+	</div>
+</div>
+<!-- </body>
+
+<script>
+	function myFunction() {
+	  var x = document.getElementById("myTopnav");
+	  if (x.className === "topnav") {
+		x.className += " responsive";
+	  } else {
+		x.className = "topnav";
+	  }
+	}
+	</script>
+	 -->

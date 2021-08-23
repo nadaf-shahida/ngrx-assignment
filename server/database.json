@@ -1,0 +1,380 @@
+{
+  "products": [
+    {
+      "name": "",
+      "description": "",
+      "price": "",
+      "quantity": "",
+      "imageUrl": "",
+      "id": 201
+    },
+    {
+      "name": "",
+      "description": "",
+      "price": "",
+      "quantity": "",
+      "imageUrl": "",
+      "id": 202
+    },
+    {
+      "name": "",
+      "description": "",
+      "price": "",
+      "quantity": "",
+      "imageUrl": "",
+      "id": 203
+    },
+    {
+      "name": "",
+      "description": "",
+      "price": "",
+      "quantity": "",
+      "imageUrl": "",
+      "id": 206
+    },
+    {
+      "name": "",
+      "description": "",
+      "price": "",
+      "quantity": "",
+      "imageUrl": "",
+      "id": 207
+    },
+    {
+      "name": "",
+      "description": "",
+      "price": "",
+      "quantity": "",
+      "imageUrl": "",
+      "id": 208
+    },
+    {
+      "name": "",
+      "description": "",
+      "price": "",
+      "quantity": "",
+      "imageUrl": "",
+      "id": 209
+    },
+    {
+      "name": "",
+      "description": "",
+      "price": "",
+      "quantity": "",
+      "imageUrl": "",
+      "id": 213
+    },
+    {
+      "name": "",
+      "description": "",
+      "price": "",
+      "quantity": "",
+      "imageUrl": "",
+      "id": 220
+    },
+    {
+      "name": "",
+      "description": "",
+      "price": "",
+      "quantity": "",
+      "imageUrl": "",
+      "id": 221
+    },
+    {
+      "name": "",
+      "description": "",
+      "price": "",
+      "quantity": "",
+      "imageUrl": "",
+      "id": 222
+    },
+    {
+      "name": "",
+      "description": "",
+      "price": "",
+      "quantity": "",
+      "imageUrl": "",
+      "id": 223
+    },
+    {
+      "name": "",
+      "description": "",
+      "price": "",
+      "quantity": "",
+      "imageUrl": "",
+      "id": 224
+    },
+    {
+      "name": "",
+      "description": "",
+      "price": "",
+      "quantity": "",
+      "imageUrl": "",
+      "id": 225
+    },
+    {
+      "name": "",
+      "description": "",
+      "price": "",
+      "quantity": "",
+      "imageUrl": "",
+      "id": 226
+    },
+    {
+      "name": "",
+      "description": "",
+      "price": "",
+      "quantity": "",
+      "imageUrl": "",
+      "id": 233
+    },
+    {
+      "name": "",
+      "description": "",
+      "price": "",
+      "quantity": "",
+      "imageUrl": "",
+      "id": 234
+    },
+    {
+      "name": "",
+      "description": "",
+      "price": "",
+      "quantity": "",
+      "imageUrl": "",
+      "id": 239
+    },
+    {
+      "name": "",
+      "description": "",
+      "price": "",
+      "quantity": "",
+      "imageUrl": "",
+      "id": 240
+    },
+    {
+      "name": "",
+      "description": "",
+      "price": "",
+      "quantity": "",
+      "imageUrl": "",
+      "id": 241
+    },
+    {
+      "name": "",
+      "description": "",
+      "price": "",
+      "quantity": "",
+      "imageUrl": "",
+      "id": 249
+    },
+    {
+      "name": "",
+      "description": "",
+      "price": "",
+      "quantity": "",
+      "imageUrl": "",
+      "id": 250
+    },
+    {
+      "name": "",
+      "description": "",
+      "price": "",
+      "quantity": "",
+      "imageUrl": "",
+      "id": 251
+    },
+    {
+      "name": "",
+      "description": "",
+      "price": "",
+      "quantity": "",
+      "imageUrl": "",
+      "id": 252
+    },
+    {
+      "name": "",
+      "description": "",
+      "price": "",
+      "quantity": "",
+      "imageUrl": "",
+      "id": 253
+    },
+    {
+      "name": "",
+      "description": "",
+      "price": "",
+      "quantity": "",
+      "imageUrl": "",
+      "id": 254
+    },
+    {
+      "name": "kajal",
+      "description": "Dark and waterproof",
+      "price": "200",
+      "quantity": 1,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrq13fZQT8wLEM0SOWQXWxo99fRQWieTQZGg&usqp=CAU",
+      "id": 256
+    },
+    {
+      "name": "Maskara",
+      "description": "Smudge Proof and water proof",
+      "price": "1",
+      "quantity": 400,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvhPQagW7ztlphR09lHzbDn9DxRlVNManMrA&usqp=CAU",
+      "id": 257
+    },
+    {
+      "name": "Radiance compact",
+      "description": "dark and water proof",
+      "price": "500",
+      "quantity": 2,
+      "imageUrl": "https://www.bigbasket.com/media/uploads/p/l/40078318_1-lakme-radiance-complexion-compact.jpg",
+      "id": 258
+    },
+    {
+      "name": "Foundation",
+      "description": "Rosy glory",
+      "price": "755",
+      "quantity": 2,
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0014/3514/0183/products/LakmeAbsoluteBlurPerfectPrimer_250x.jpg?v=1598335284",
+      "id": 259
+    },
+    {
+      "name": "Invisible Foundation",
+      "description": "with different color",
+      "price": "553",
+      "quantity": 2,
+      "imageUrl": "https://rukminim1.flixcart.com/image/416/416/kbnz8nk0/foundation/z/z/4/50-invisible-finish-spf-8-foundation-for-dark-skin-tone-lakme-original-imafsyfhb8hrdqkp.jpeg?q=70",
+      "id": 260
+    },
+    {
+      "name": "Absolute Argen Oil ",
+      "description": "Warm Beige",
+      "price": "800",
+      "quantity": 1,
+      "imageUrl": "https://static.cilory.com/462383-thickbox_default/lakme-absolute-argan-oil-serum-foundation-w240-warm-beige.jpg",
+      "id": 261
+    },
+    {
+      "name": "Finish Foundation",
+      "description": "clean n clear",
+      "price": "700",
+      "quantity": 2,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt25a_RJ552_PXeyS6QEqhGXEoEp-w817j-w&usqp=CAU",
+      "id": 262
+    }
+  ],
+  "categories": [
+    {
+      "name": "Finish Foundation",
+      "description": "Water proof",
+      "id": 59
+    },
+    {
+      "name": "kajal",
+      "description": "Smudge Proof",
+      "id": 60
+    },
+    {
+      "name": "Maskara",
+      "description": "water and smudge proof",
+      "id": 61
+    },
+    {
+      "name": "EyeLiner",
+      "description": "Smudge proof",
+      "id": 62
+    }
+  ],
+  "carts": [
+    {
+      "id": 1,
+      "userid": 2,
+      "products": [
+        {
+          "id": 18,
+          "name": "Refined Concrete Shoes",
+          "description": "Temporibus eius veritatis rerum praesentium et. Beatae in deleniti aliquam facilis quo fuga.",
+          "price": "109.00",
+          "imageUrl": "https://source.unsplash.com/1600x900/?product",
+          "quantity": 84072
+        },
+        {
+          "name": "abcd",
+          "description": "egd",
+          "price": "12",
+          "quantity": 2,
+          "imageUrl": "https://images.all-free-download.com/images/graphiclarge/the_beautiful_maple_leaf_05_hq_pictures_169255.jpg",
+          "id": 241
+        },
+        {
+          "name": "xx",
+          "description": "dstrg",
+          "price": "12",
+          "quantity": 2,
+          "imageUrl": "https://images.all-free-download.com/images/graphiclarge/the_beautiful_maple_leaf_05_hq_pictures_169255.jpg",
+          "id": 245
+        }
+      ],
+      "isCartEmpty": false,
+      "cartItemsLength": 4,
+      "productsSubtotal": 339
+    },
+    {
+      "id": 2,
+      "userid": 1,
+      "products": [
+        {
+          "name": "Finish Foundation",
+          "description": "clean n clear",
+          "price": "700",
+          "quantity": 2,
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt25a_RJ552_PXeyS6QEqhGXEoEp-w817j-w&usqp=CAU",
+          "id": 262
+        },
+        {
+          "name": "Invisible Foundation",
+          "description": "with different color",
+          "price": "553",
+          "quantity": 2,
+          "imageUrl": "https://rukminim1.flixcart.com/image/416/416/kbnz8nk0/foundation/z/z/4/50-invisible-finish-spf-8-foundation-for-dark-skin-tone-lakme-original-imafsyfhb8hrdqkp.jpeg?q=70",
+          "id": 260
+        },
+        {
+          "name": "Absolute Argen Oil ",
+          "description": "Warm Beige",
+          "price": "500",
+          "quantity": 1,
+          "imageUrl": "https://static.cilory.com/462383-thickbox_default/lakme-absolute-argan-oil-serum-foundation-w240-warm-beige.jpg",
+          "id": 261
+        },
+        {
+          "name": "Foundation",
+          "description": "Rosy glory",
+          "price": "755",
+          "quantity": 2,
+          "imageUrl": "https://cdn.shopify.com/s/files/1/0014/3514/0183/products/LakmeAbsoluteBlurPerfectPrimer_250x.jpg?v=1598335284",
+          "id": 259
+        }
+      ],
+      "isCartEmpty": false,
+      "cartItemsLength": 3,
+      "productsSubtotal": 1753
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "email": "admin@admin.com",
+      "isadmin": true
+    },
+    {
+      "id": "2",
+      "username": "user",
+      "email": "user@user.com",
+      "isadmin": false
+    }
+  ]
+}

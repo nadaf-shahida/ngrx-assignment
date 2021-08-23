@@ -1,0 +1,143 @@
+.product-list{
+  height: 500px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+    margin-left: 300px;
+  }
+  
+  td, th {
+    border: 2px solid black;
+border:none;
+    text-align: center;
+    padding: 8px;
+    color:orangered;
+  }
+  
+  tr:nth-child(even) {
+    background-color:#fff3f3;
+  }
+  h3{
+      text-align: center;
+      color:orangered;
+  }
+.addbtn{
+  border: none;
+    background-color:orangered;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+  
+}
+  .btn{
+    border: none;
+    background-color:white;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+  
+  }
+  @media only screen and (max-width:320) {
+    h3{
+          // margin-left:50px;
+          margin-top:25px;
+          /* margin-top:200px;    */
+       }
+     .table{
+      width: 100% !important;
+      margin-left: 0;
+  
+      /* border-collapse: collapse; */
+      /* margin-left: 240px; */
+    }
+    .btn-group{
+      display: flex;
+      flex-wrap: wrap;
+      
+    }
+  
+    // .btn-cta {
+    //   display: flex;
+    //   justify-content: space-between;
+    // }
+    
+  
+  }
+  
+  
+  @media(max-width: 500px){
+    .table thead{
+      // display: none;
+    }
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 60%;
+      margin-left: 50px;
+      height: 100vh;
+    }
+
+    
+    .table, .table tbody, .table tr, .table td{
+      display: inline-table;
+      width: 95%; 
+    }
+    .table tr{
+      margin-bottom:15px;
+    }
+    .table td{
+      text-align: right;
+      padding-left: 50%;
+      text-align: right;
+      position: relative;
+    }
+    .table td::before{
+      content: attr(data-label);
+      position: absolute;
+      left:0;
+      width: 50%;
+      padding-left:15px;
+      font-size:15px;
+      font-weight: bold;
+      text-align: left;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    h3{
+          // margin-left:50px;
+          margin-top:25px;
+          /* margin-top:200px;    */
+       }
+     .table{
+      width: 100% !important;
+      margin-left: 0;
+  
+      /* border-collapse: collapse; */
+      /* margin-left: 240px; */
+    }
+  
+    // .btn-cta {
+    //   display: flex;
+    //   justify-content: space-between;
+    // }
+    
+  
+  }
+  
+  
+  
+  

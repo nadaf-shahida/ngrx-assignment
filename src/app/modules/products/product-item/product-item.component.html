@@ -1,0 +1,56 @@
+<div class="container">
+	<div class="row-card">
+	<div>			
+		<h1>Product Detail</h1>
+	</div>
+
+			<div class="card" *ngIf="product$ | async as product">
+
+				<div class="card-list">
+
+					<img class="card-img-top" src="{{product.imageUrl}}" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">{{product.name}}</h5>
+						<p class="card-text">Price: ${{product.price}}</p>
+						<p class="card-text">
+							In Stock: {{product.quantity}}
+						</p>
+					</div>
+
+					<!-- <div>
+						<p class="card-text">Price: ${{product.price}}</p>
+					</div>
+					<div>
+						<p class="card-text">
+							In Stock: {{product.quantity}}
+						</p>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div class="card-body">
+					<h5 class="card-title">{{product.name}}</h5>
+					<p class="card-text">{{product.description}}
+					</p>
+				</div> -->
+					<div class="all-btn">
+						
+							<div class="btn-group" role="group" aria-label="Basic example">
+								<button type="button" class="btn"
+									[routerLink]="['/shopping/product-edit', product.id]">Edit <i
+										class="fas fa-edit"></i></button>
+								<button type="button" (click)="deleteProduct(product.id)" class="btn">Remove
+									<i class="fas fa-trash"></i></button>
+									<button class="btn" [routerLink]="['/shopping/product-list']"
+									routerLinkActive="router-link-active"><i class="fas fa-arrow-left"></i>
+									Back To List</button>
+		
+								</div>
+	
+				
+					</div>
+				</div>
+			</div>
+	
+
+	</div>

@@ -1,0 +1,40 @@
+
+	<div class="container" *ngIf="vm$ |async as vm">
+
+		<div class="filter">
+			<p>Filter Products by:</p>
+			<app-price-filter-widget (selectedRadioEvent)="onPriceFilterChange($event)"></app-price-filter-widget>
+		</div>
+
+		<h1>Products</h1>
+
+		<div class="row-card">
+			<div class="card" *ngFor="let product of vm.products">
+				<div class="card-list">
+					<img src="{{product.imageUrl}}" class="card-img-top" alt="Product Image">
+					<div class="card-body">
+						<h6 class="card-title">{{product.name}}</h6>
+						<p class="card-text">Price : ${{product.price}}</p>
+						<p class="card-text">Quantity : {{product.quantity}}</p>
+					</div>
+					<div class="all-btn">
+						<div class="btn-group" role="group" aria-label="Basic example">
+							<button type="button" class="btn"
+								[routerLink]="['/shopping/product-view', product.id]" title="View Product Details"><i
+									class="fas fa-search"></i> View</button>
+							<app-cart-button-widget [product]="product" [text]="'Cart'"></app-cart-button-widget>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+		<div class="pagination">
+			<div class="page">
+				<app-pagination-buttons-widget [pagination]="vm.pagination" (selecedUrl)="onPaginationChange($event);">
+				</app-pagination-buttons-widget>
+			</div>
+		</div>
+
+	</div>
+</div>

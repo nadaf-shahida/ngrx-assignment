@@ -1,0 +1,112 @@
+// .row{
+//     display: flex;
+//     flex-wrap: wrap;
+//     align-content:stretch;
+    
+  
+//   }
+// .container{
+//     display: flex;
+//     // background-color:black;
+//     color: white;
+// }
+.headline{
+    color:orangered;
+    margin-left: 550px;
+}
+.allbtn{
+    display: flex;
+align-items: flex-start;
+flex-wrap: wrap;
+
+    // margin-left: 670px;
+    // text-decoration: none;
+    // color: white;
+    // border: 2px solid white;
+    // padding:12px 14px;
+    // font-size: 14px;
+    // background: transparent;
+    // position: relative;
+    // cursor: pointer;
+}
+// .allbtn:hover{
+//     border: 1px solid orangered;
+//     background: orangered;
+//     transition: 1s;
+// }
+.row-card{
+//     display: flex;
+// flex-direction: row;
+    // margin-left:50px;
+}
+.card{
+    // flex-basis: 31%;
+    background:#fff3f3;
+    border-radius: 10px;
+    margin-bottom: 15%;
+    padding:20px 12px;
+    box-sizing: border-box;
+    color: orangered;
+    text-align: center;
+    height: 320px;
+    width: 400px; 
+    margin-left: 450px;
+    display: flex;
+    flex-direction: row;
+    
+}
+// .card .card-body{
+//     // margin-left: 50px;
+
+// }
+// .card-list{
+//    display: flex;
+//    flex-direction: row;
+//  }
+.card-img-top{
+    width: 200px;
+    height: 150px;
+    margin-left: 30px;
+}
+.card-title{
+    font-size: 22px;
+    margin: 0;
+}
+.card-text{
+    // font-size: 16px;
+    text-align: center;
+}
+h1{
+color:rgb(34, 26, 23);
+}
+.btn{
+    // display: flex;
+    margin-left: 50px;
+
+    margin-bottom: 20px;
+}
+.btn2{
+    margin-left: 50px;
+    background-color: black;
+    // color:orange;
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+
+    // margin-top: 20px;
+}
+
+// // .addbtn{
+// //     background-color: orangered;
+// //     margin-left: 540px;
+// //     font-size: 18px;
+// //     height:50px;
+// //     border-radius: 2px solid white;
+// // }

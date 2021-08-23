@@ -1,0 +1,20 @@
+<div class="container">
+	<div>
+		<ul class="list-group">
+			<li class="active"><strong>Price</strong></li>
+			<li class="list" *ngFor="let item of PriceOptions">
+				<div class="custom-radio">
+					<input class="radiobtn" type="radio" 
+					[(ngModel)]="radioSelected"
+					 name="list_name" 
+					 value="{{item.value}}" 
+					 id="{{item.value}}"
+					 (change)="onItemChange(item)" class="">
+					<label for="{{item.value}}" class="">{{item.name}}</label><br>
+				</div>
+
+			</li>
+		</ul>
+
+	</div>
+</div>
